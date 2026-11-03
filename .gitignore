@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Xcode: build products and per-user settings
+/build/
+/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager: generated files and local configuration
+.build/
+.swiftpm/
+# Keep Package.resolved tracked to pin dependency versions.
+
+# Distribution artifacts and signing credentials
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+*.ipa
+*.dmg
+*.pkg
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# Editor temporary files
+*.swp
+*.swo
+*~
